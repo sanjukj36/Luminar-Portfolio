@@ -173,7 +173,8 @@ function App() {
 
       <div id='services' className="section3 m-3 text-light mb-5" >
         <div className='d-flex justify-content-center mb-5'>
-          <button>SERVICES</button>
+          <div className='text-white display-2 fw-bolder background-text title'><i class="fa-solid fa-caret-left leftAro"></i> SERVICES <i class="fa-solid fa-caret-right rightA"></i></div>
+
         </div>
 
         <Row>
