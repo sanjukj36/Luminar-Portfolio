@@ -330,7 +330,7 @@ function App() {
               </div>
             </Col>
           </Row>
-          <Row className='mt-3 mb-5' style={{maxWidth:"16%"}}>
+          <Row className='mt-3 mb-5'>
             <Col>
               <div className="card cardSkill">
                 <img width={"150px"} src="https://remonmagdy.vercel.app/assets/images/icon/sass.svg" alt="" />
