@@ -130,7 +130,7 @@ function App() {
 
               </p>
             </div>
-            <button class="cvButton ms-5 mt-3"><span>DOWNLOAD CV</span></button>
+            <button class="btn btn-outline-primary ms-5 mt-3"><span>DOWNLOAD CV</span></button>
 
 
 
