@@ -121,7 +121,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 40%;
   height: 50%;
   margin-left: 410px;
   margin-top: -18px;
@@ -210,3 +210,19 @@
   transition: opacity 0.3s ease;
 
 }
+
+/* .title :hover .rightAro{
+  margin-top: 10%;
+} */
+
+/* .rightAro {
+  transition: transform 1ms ease; 
+}
+
+.title:hover .rightAro {
+  margin-left: -90%;
+}
+.title:hover .leftAro {
+  transform: rotate(45deg);
+} */
+

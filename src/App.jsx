@@ -92,7 +92,7 @@ function App() {
 
       <div id='aboutMe' className="section2 mt-5 m-3 text-light">
         <div className='d-flex justify-content-center mb-5'>
-          <button>About Me</button>
+          <div className='text-white display-2 fw-bolder background-text title'><i class="fa-solid fa-caret-left leftAro"></i> ABOUT ME <i class="fa-solid fa-caret-right rightA"></i></div>
         </div>
         <Row>
 
@@ -293,7 +293,8 @@ function App() {
 
       <div id='skills' className="section4 m-3 text-light" >
         <div className='d-flex justify-content-center mb-5'>
-          <button>MY SKILLS</button>
+          <div className='text-white display-2 fw-bolder background-text title'><i class="fa-solid fa-caret-left leftAro"></i> MY SKILLS <i class="fa-solid fa-caret-right rightA"></i></div>
+
         </div>
 
         <div className='shape shape3 fa-spin'><img  src="https://remonmagdy.vercel.app/assets/images/shapes01/04.png" alt="" /></div>
@@ -329,7 +330,7 @@ function App() {
               </div>
             </Col>
           </Row>
-          <Row className='mt-3 mb-5'>
+          <Row className='mt-3 mb-5' style={{maxWidth:"16%"}}>
             <Col>
               <div className="card cardSkill">
                 <img width={"150px"} src="https://remonmagdy.vercel.app/assets/images/icon/sass.svg" alt="" />
@@ -364,7 +365,7 @@ function App() {
 
       <div id='portfolio' className="section5 m-3 text-light" >
         <div className='d-flex justify-content-center mb-5'>
-          <button>MY PORTFOLIO</button>
+          <div className='text-white display-2 fw-bolder background-text title'><i class="fa-solid fa-caret-left leftAro"></i> MY PORTFOLIO<i class="fa-solid fa-caret-right rightA"></i></div>
         </div>
 
         <div>
