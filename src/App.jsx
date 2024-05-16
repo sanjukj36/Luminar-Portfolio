@@ -8,14 +8,32 @@ import newImage from './assets/new-Photoroom.png-Photoroom.png';
 
 
 function App() {
+  let mybutton = document.getElementById("myBtn");
+
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 
   return (
     <>
+
+      <button onClick={topFunction} id="myBtn" title="Go to top"><i className='fa-solid fa-long-arrow-up'></i></button>
       <Navbar className="">
         <Container >
           <Navbar.Brand href="#home" className='text-white'>
             <a href='/'><img width={'200px'} className='imgEffect' src="https://remonmagdy.vercel.app/assets/images/logo/logo-no-background.png" alt="" /></a>
-         </Navbar.Brand>
+          </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
@@ -298,8 +316,8 @@ function App() {
 
         </div>
 
-        <div className='shape shape3 fa-spin'><img  src="https://remonmagdy.vercel.app/assets/images/shapes01/04.png" alt="" /></div>
-        <div className='shape shape2 fa-spin'><img  src="https://remonmagdy.vercel.app/assets/images/shapes01/04.png" alt="" /></div>
+        <div className='shape shape3 fa-spin'><img src="https://remonmagdy.vercel.app/assets/images/shapes01/04.png" alt="" /></div>
+        <div className='shape shape2 fa-spin'><img src="https://remonmagdy.vercel.app/assets/images/shapes01/04.png" alt="" /></div>
 
         <div className='ms- me-'>
           <Row>
@@ -495,7 +513,7 @@ function App() {
 
       <div id='contact' className='footer d-flex justify-content-between'>
         <div className=' shape'><img width={'100px'} src="https://remonmagdy.vercel.app/assets/images/shapes/35.png" alt="" /></div>
-        <div className=' shape shape1'><img  src="https://remonmagdy.vercel.app/assets/images/shape03/086.png" alt="" /></div>
+        <div className=' shape shape1'><img src="https://remonmagdy.vercel.app/assets/images/shape03/086.png" alt="" /></div>
         <div className='m-5 '>
           <a href='/'><img width={"25px"} className='ms-5' src="https://remonmagdy.vercel.app/assets/images/socialicon/01.png" alt="" /></a>
           <a href='/'><img width={"25px"} className='ms-5' src="https://remonmagdy.vercel.app/assets/images/socialicon/02.png" alt="" /></a>
